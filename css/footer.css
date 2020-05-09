@@ -1,0 +1,80 @@
+/* 设置页面底部样式 */
+
+.footer {
+    padding-top: 40px;
+}
+
+.footer .footer-main {
+    width: 780px;
+    margin: auto;
+}
+
+.footer .footer-main dl.new {
+    padding: 0 35px 0 5px;
+}
+
+.footer .footer-main dl.question {
+    padding: 0 35px;
+}
+
+.footer .footer-main dl.suggestion {
+    padding: 0 5px 20px 35px;
+}
+
+.footer .footer-main dl img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer .footer-main dl dt {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.footer .footer-main dl dd {
+    margin: 5px 0 0 30px;
+}
+
+.footer .footer-main dl dd div {
+    float: left;
+    width: 90px;
+    height: 18px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.footer .footer-main dl dd div a {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer .footer-main dl dd div a:hover {
+    color: #338de6;
+}
+
+.footer .footer-main dl {
+    float: left;
+    width: 210px;
+}
+
+.footer .copyright,
+.footer .recordcode {
+    font-size: 12px;
+}
+
+.footer .copyright a,
+.footer .recordcode a {
+    color: #338de6;
+}
+
+.footer .copyright a:hover {
+    text-decoration: underline;
+}
+
+.footer .recordcode img {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 8px;
+}

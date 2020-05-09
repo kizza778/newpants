@@ -1,0 +1,212 @@
+/* 存放页面中的通用样式 */
+
+body {
+    position: relative;
+}
+
+
+/* 用于清除浮动，解决高度坍塌 */
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* 设置左浮动 */
+
+.fl {
+    float: left;
+}
+
+
+/* 设置右浮动 */
+
+.fr {
+    float: right;
+}
+
+
+/* 设置居中样式--用于定宽元素水平居中 */
+
+.m-w {
+    margin: auto;
+}
+
+
+/* 设置页面内容区，底部的背景颜色 */
+
+.content,
+.footer {
+    background: #f5f5f5;
+}
+
+
+/* 内容区出现多次的二级标题的样式 */
+
+.content .info-text .detail-info h2.headline {
+    border-left: solid 12px #4F9CEE;
+    font-size: 22px;
+    display: block;
+    font-weight: 500;
+    line-height: 22px;
+    /* margin: 35px 0 15px -28px; */
+    text-indent: 1em;
+    background: #fff;
+    width: 120px;
+}
+
+
+/* 内容区类名为para的p标签的通用样式 */
+
+.content .info-text p.para {
+    text-indent: 2em;
+    width: 790px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-family: arial, 宋体, sans-serif;
+}
+
+.content .info-text p.para a {
+    color: #136ec2;
+}
+
+.content .info-text p.para a:hover {
+    text-decoration: underline;
+}
+
+.content .info-text div.album-fr {
+    float: right;
+    margin: 10px 0 10px 15px;
+}
+
+.content .info-text div.album-fl {
+    float: left;
+    margin: 10px 0 10px 15px;
+}
+
+.content .info-text .pics-wrap {
+    /* 内容区-文本-右侧图片包裹层的样式 */
+    width: 220px;
+    height: 165px;
+    border: solid 1px #e0e0e0;
+    overflow: hidden;
+    position: relative;
+}
+
+.content .info-text .pics-wrap img.picture {
+    /* 内容区-文本-右侧相册内图片的样式 */
+    width: 100%;
+    height: 100%;
+}
+
+.content .info-text .pics-bg1,
+.content .info-text .pics-bg2 {
+    /* 内容区-信息文本-相册的背景样式 */
+    border: 1px solid #e6e6e6;
+    border-top: 1px solid #f5f5f5;
+    height: 1px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content .info-text div.desc {
+    /* 内容区-信息文本-存放描述的div盒子的通用样式 */
+    display: block;
+    text-align: left;
+    padding: 8px 7px;
+    line-height: 18px;
+    color: #555;
+    text-decoration: none;
+    font-size: 12px;
+    border: solid 1px #e0e0e0;
+    border-top: 0;
+    text-indent: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.content .info-text .detail-info .level-3 {
+    /* 内容区-详细信息-主要作品下的三级标题的通用格式 */
+    margin: 20px 0 12px;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Microsoft YaHei, SimHei, Verdana;
+}
+
+.content .info-text .detail-info .left-box .info-form {
+    margin: 35px 0 15px -28px;
+    background: url(https://bkssl.bdimg.com/static/wiki-lemma/normal/resource/img/paraTitle-line_743dba1.png);
+}
+
+.content .info-text .detail-info .left-box .info-form a.edit {
+    color: #888;
+    font-size: 12px;
+    background-color: #fff;
+    padding-left: 13px;
+    height: 20px;
+}
+
+.content .info-text .detail-info .left-box .info-form a.edit:hover {
+    color: #136ec2;
+}
+
+.content .info-text .detail-info h3.works-cat {
+    /* 内容区-详细信息-音乐作品下的三级标题的通用格式 */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* 特殊字体样式 */
+
+.content .info-text .special-font {
+    font-family: arial, 宋体, sans-serif;
+    font-size: 12px;
+}
+
+
+/* 字体加粗样式 */
+
+.content .info-text .strong-font {
+    font-weight: bold;
+}
+
+
+/* 占满父元素 */
+
+.full-width {
+    width: 100%;
+}
+
+
+/* 文本靠左 */
+
+.align-left {
+    text-align: left;
+}
+
+
+/* 文本居中 */
+
+.align-center {
+    text-align: center;
+}
+
+
+/* i标签的斜体样式 */
+
+i {
+    font-style: italic;
+}
+
+
+/* grey-font类样式：灰色文本 */
+
+.grey-font {
+    color: #888;
+}

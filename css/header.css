@@ -1,0 +1,141 @@
+/* 设置头部样式 */
+
+.header .topbar {
+    /* 设置头部整体样式 */
+    height: 32px;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 13px;
+    line-height: 32px;
+}
+
+.header .topbar ul li {
+    /* 设置头部li标签均为左浮动 */
+    float: left;
+}
+
+.header .topbar ul li.active a {
+    color: #666;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.header .topbar .user-info li {
+    /* 设置li标签间隔 */
+    padding: 0 12px;
+}
+
+.header .topbar .user-info li a:hover {
+    /* 设置悬浮样式 */
+    text-decoration: underline;
+}
+
+.header .topbar .topbar-menu {
+    width: 480px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+
+.header .topbar .topbar-menu a {
+    font-family: arial;
+    margin-left: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.header .layout .search .logo-container {
+    padding: 25px 0 35px;
+    width: 825px;
+}
+
+.header .layout .search .logo-container img {
+    /* 设置logo宽高 */
+    width: 140px;
+    height: 47px;
+    float: left;
+    margin-right: 15px;
+}
+
+.header .layout .search .form {
+    position: relative;
+}
+
+.header .layout .search .logo-container .search-in {
+    /* 设置搜索框样式 */
+    width: 423px;
+    font-size: 16px;
+    height: 28px;
+    line-height: 28px;
+    padding: 6px 8px 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b8b8b8 #ccc #ccc #b8b8b8;
+    margin-top: 15px;
+}
+
+.header .layout .search .logo-container button {
+    /* 设置按钮的通用样式 */
+    letter-spacing: 1px;
+    outline: medium;
+    font-family: arial;
+    margin: 0 4px 0 0;
+    display: inline-block;
+    width: 104px;
+    font-size: 16px;
+    height: 40px;
+    margin-left: -6px;
+    cursor: pointer;
+}
+
+.header .layout .search .logo-container button#search {
+    /* 设置第一个按钮的样式 */
+    background: #38f;
+    border: 1px solid #38f;
+    border-bottom: 1px solid #2d78f4;
+    color: #fff;
+}
+
+.header .layout .search .logo-container button#searchLemma {
+    /* 设置第二个按钮的样式 */
+    border: 1px solid #2e82ff;
+    color: #38f;
+    background-color: #fff;
+}
+
+.header .layout .search .logo-container a {
+    text-decoration: underline;
+}
+
+.header .layout .search .logo-container a.help {
+    /* 设置帮助的位置和样式 */
+    position: absolute;
+    top: 93px;
+    right: 200px;
+    font-size: 13px;
+    color: #333;
+}
+
+.header .layout .search .declare {
+    /* 声明区域样式 */
+    margin-top: 40px;
+    background: #f9f4d9;
+    color: #8f7f5d;
+    padding: 10px 15px;
+    position: relative;
+    font-size: 12px;
+    width: 1130px;
+    height: 18px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.header .layout .search .declare a.declare-detail {
+    color: #2d78f4;
+}
+
+.header .layout .search .declare a img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    right: 5px;
+}

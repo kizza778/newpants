@@ -1,0 +1,1487 @@
+/* 页面内容区CSS文件 */
+
+.content {
+    /* 设置内容区：相对定位 */
+    position: relative;
+}
+
+
+/* 设置顶部导航栏的样式*/
+
+.content .navbar .navbar-top {
+    height: 43px;
+    border-top: 1px solid #5895d5;
+    border-bottom: 1px solid #3b92e9;
+    background: #459df5;
+    position: absolute;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.content .navbar .navbar-top:hover {
+    /* 设置导航栏二级菜单的出现 */
+    overflow: visible;
+}
+
+.content .navbar .navbar-top .navbar-content {
+    height: 244px;
+    width: 1140px;
+    padding-left: 70px;
+    padding-right: 53px;
+}
+
+.content .navbar .navbar-top .navbar-content .usercenter {
+    float: right;
+}
+
+.content .navbar .navbar-top .navbar-content .usercenter img {
+    /* 设置用户中心图片样式 */
+    height: 40px;
+    width: 120px;
+}
+
+
+/* 设置导航栏二级菜单的表格样式 */
+
+.content .navbar .navbar-top dl {
+    float: left;
+    width: 104px;
+    height: 249px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.content .navbar .navbar-top dl dt {
+    transition: .3s;
+    height: 43px;
+    color: #fff;
+    line-height: 43px;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(51, 140, 230);
+}
+
+.content .navbar .navbar-top dl dt:hover {
+    background: rgb(51, 140, 230);
+}
+
+
+/* 设置鼠标悬浮时的样式 */
+
+.content .navbar .navbar-top dl:hover dd {
+    opacity: 0.95;
+    background: rgba(36, 97, 158, 0.95);
+}
+
+.content .navbar .navbar-top dl:hover dt {
+    background: rgb(51, 140, 230);
+}
+
+.content .navbar .navbar-top dl dd {
+    width: 103px;
+    padding: 11px 0 10px;
+    height: 180px;
+    transition: .3s;
+    line-height: 1.5;
+    height: 184px;
+    line-height: 30px;
+    border-left: 1px solid rgb(71, 114, 161);
+    color: #a2c9f0;
+}
+
+.content .navbar .navbar-top dl dd a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.content .navbar .navbar-top dl.cat dd div {
+    float: left;
+    width: 28px;
+    margin-left: 15px;
+}
+
+.content .navbar .navbar-top .navbar-bg {
+    /* 设置导航栏二级菜单的背景样式 */
+    width: 1263px;
+    background: rgba(46, 104, 162, 0.95);
+    height: 206px;
+    position: absolute;
+    top: 43px;
+    z-index: -1;
+}
+
+
+/* 设置视频介绍区的样式 */
+
+.content .video-info {
+    position: relative;
+    height: 285px;
+    background: #0A318A;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.content .video-info>img {
+    width: 120px;
+    position: absolute;
+    top: 160px;
+}
+
+.content .video-info .video {
+    margin: 20px 300px;
+    height: 225px;
+    width: 653px;
+    display: inline-block;
+}
+
+.content .video-info .video>img {
+    width: 400px;
+    height: 235px;
+}
+
+.content .video-info .video .video-list {
+    width: 232px;
+    display: inline-block;
+    background: #000000;
+    padding-left: 15px;
+    color: #999999;
+    padding-top: 23px;
+    font-size: 12px;
+}
+
+.content .video-info .video .video-list .list-item {
+    cursor: pointer;
+}
+
+.content .video-info .video .video-list span.active {
+    color: #dedede;
+}
+
+.content .video-info .video .video-list .upload {
+    position: relative;
+    top: 1px;
+    left: 40px;
+    color: #dedede;
+}
+
+.content .video-info .video .video-list .upload em {
+    position: relative;
+    top: -7px;
+}
+
+.content .video-info .video .video-list img {
+    width: 68px;
+    height: 52px;
+    margin: 5px 0;
+}
+
+.content .video-info img#sk1 {
+    left: 170px;
+}
+
+.content .video-info img#sk2 {
+    right: 180px;
+}
+
+.content .video-info .video .video-list span {
+    position: relative;
+    top: -8px;
+}
+
+.content .video-info .video .video-list .list-item .disc {
+    line-height: 16px;
+    top: -25px;
+    display: inline-block;
+    margin-top: -15px;
+    position: relative;
+    margin-left: 5px;
+}
+
+.content .video-info .video .video-list .list-item p {
+    color: #dedede;
+    font-size: 12px;
+}
+
+.content .video-info .video .video-list .list-item p.num {
+    color: #aaa;
+}
+
+
+/* 设置 文本信息区 的样式 */
+
+.content .info-text {
+    font-size: 14px;
+    line-height: 2em;
+}
+
+
+/* 设置 文本信息区——基本信息 的样式 */
+
+.content .info-text .base-info {
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 20px 62px;
+    position: relative;
+    background: #fff;
+}
+
+.content .info-text .base-info .base-left {
+    width: 810px;
+    position: relative;
+}
+
+.content .info-text .base-info .base-left .title a span.num {
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 3px;
+    left: 261px;
+    background: #F34F1D;
+    color: #FFF;
+    z-index: 1;
+}
+
+.content .info-text .base-info .base-left .base-disc {
+    text-indent: 2em;
+}
+
+.content .info-text .base-info .base-left .title h1 {
+    font-size: 38px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.content .info-text .base-info .base-left .title a {
+    font-size: 12px;
+    border: 1px solid #ccc;
+    color: #777;
+    border-radius: 3px;
+    padding: 4px 6px;
+    margin: 0 6px;
+}
+
+.content .info-text .base-info .base-left .title a:hover {
+    color: white;
+    background: #459df5;
+    border: 1px solid #459df5;
+}
+
+.content .info-text .base-info .base-left .title a em.spec-style {
+    color: rgb(82, 163, 245);
+}
+
+.content .info-text .base-info .base-left .title a:hover em.spec-style {
+    color: white;
+}
+
+.content .info-text .base-info .base-left .title p {
+    background: rgb(238, 247, 253);
+    border-left: 3px solid rgb(82, 163, 245);
+    width: 40px;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.content .info-text .base-info .base-pic {
+    width: 268px;
+    height: 201px;
+    border: 2px solid #ccc;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.content .info-text .base-info .base-pic img {
+    width: 268px;
+    height: 201px;
+}
+
+.content .info-text .base-info .base-pic .pics {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2px 8px;
+    border-radius: 3px;
+    color: #fff;
+    position: absolute;
+    top: 155px;
+    right: 10px;
+}
+
+.content .info-text .base-info .base-pic a.pics:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+}
+
+
+/* 设置 文本信息区——详细信息 的样式 */
+
+.content .info-text .detail-info {
+    border: 1px solid #ccc;
+    padding: 27px;
+    margin: 20px 62px;
+    position: relative;
+    background: #fff;
+    padding-right: 13px;
+}
+
+.content .info-text .detail-info .detail-menu {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fbfbfb;
+    width: 790px;
+}
+
+.content .info-text .detail-info .detail-menu a:hover {
+    text-decoration: underline;
+}
+
+.content .info-text .detail-info .detail-menu .title {
+    float: left;
+    margin: 22px 0 0 20px;
+    width: 62px;
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 400;
+}
+
+
+/* 基本信息 */
+
+.content .info-text .detail-info .basic-info {
+    margin: 20px 0 35px;
+    font-size: 12px;
+    font-family: arial, 宋体, sans-serif;
+    background: url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/basicInfo/img/basicInfo-bg_ccaff81.png);
+    width: 790px;
+    height: 78px;
+}
+
+.info-text .detail-info .basic-info .basicInfo-block {
+    width: 395px;
+    float: left;
+}
+
+.basic-info .basicInfo-block .basicInfo-item.name {
+    width: 90px;
+    padding: 0 5px 0 12px;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    color: #999;
+    float: left;
+}
+
+.basic-info .basicInfo-block .basicInfo-item.value {
+    color: #333;
+    width: 285px;
+    float: left;
+    position: relative;
+}
+
+
+/* 演艺经历 */
+
+.content .info-text .detail-info .exp {
+    width: 790px;
+    height: 48px;
+}
+
+
+/* 演艺经历——照片 */
+
+.content .info-text .detail-info .exp-pics {
+    margin: 20px auto;
+}
+
+.content .info-text .detail-info .exp-pics a:hover {
+    opacity: 0.9;
+}
+
+.content .info-text .detail-info .perfor-exp {
+    width: 790px;
+}
+
+
+/* 作品 */
+
+.content .info-text .detail-info .works {
+    width: 790px;
+}
+
+.content .info-text .detail-info .works span.active {
+    font-weight: bold;
+}
+
+.content .info-text .detail-info .works span.other {
+    color: #136ec2;
+}
+
+.content .info-text .detail-info .works .musicAlbum,
+.content .info-text .detail-info .works .singlemusic,
+.content .info-text .detail-info .works .concert {
+    margin: 10px 0 20px;
+    border-top: 2px solid #ccc;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: center;
+}
+
+.content .info-text .detail-info .works .musicAlbum thead th,
+.content .info-text .detail-info .works .singlemusic thead th,
+.content .info-text .detail-info .works .concert thead th {
+    background-color: #f9f9f9;
+}
+
+.content .info-text .detail-info .works .musicAlbum td {
+    padding: 2px 10px;
+}
+
+.content .info-text .detail-info .works .singlemusic th,
+.content .info-text .detail-info .works .singlemusic td,
+.content .info-text .detail-info .works .concert th,
+.content .info-text .detail-info .works .concert td {
+    padding-left: 15px;
+}
+
+.content .info-text .detail-info .works .musicAlbum tr,
+.content .info-text .detail-info .works .singlemusic tr {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.content .info-text .detail-info .works .musicAlbum tbody tr td:first-child {
+    text-align: left;
+}
+
+.content .info-text .detail-info .works .musicAlbum tr td span.title,
+.content .info-text .detail-info .works .singlemusic tr td span.title {
+    padding-left: 15px;
+}
+
+.content .info-text .detail-info .works .singlemusic tr td span.title a {
+    color: #136ec2;
+}
+
+.content .info-text .detail-info .works .singlemusic tr td span.title a:hover {
+    text-decoration: underline;
+}
+
+.content .info-text .detail-info .works .concert tbody {
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    padding: 0 20px;
+    text-align: left;
+    font-weight: 700;
+}
+
+
+/* 杂志区 */
+
+.content .info-text .detail-info .works .magzine .magazineList-block {
+    width: 800px;
+}
+
+.magazine .magazineList-block .magazine-item {
+    width: 186px;
+    float: left;
+    margin-right: 12px;
+    position: relative;
+}
+
+.magazine {
+    float: left;
+    width: 790px;
+    padding-top: 15px;
+}
+
+.magazine .magazineList-block .magazine-item .pic {
+    position: relative;
+    overflow: hidden;
+    width: 185px;
+    height: 250px;
+}
+
+.magazine .magazineList-block .magazine-item span.time,
+.magazine .magazineList-block .magazine-item span.tips {
+    line-height: 1.5;
+}
+
+.magazine .magazineList-block .magazine-item .name,
+.magazine .magazineList-block .magazine-item .time,
+.magazine .magazineList-block .magazine-item .tips,
+.magazine .magazineList-block .magazine-item .tips div {
+    width: 185px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.magazine .magazineList-block .magazine-item .time,
+.magazine .magazineList-block .magazine-item .tips {
+    display: inline-block;
+    font-size: 12px;
+    height: 16px;
+    color: #888;
+}
+
+.magazine .magazineList-block .magazine-item .time {
+    padding-top: 4px;
+}
+
+.magazine .magazineList-block .magazine-item .tips {
+    padding-top: 3px;
+}
+
+.magazine .magazineList-block .magazine-item .name {
+    font-size: 14px;
+}
+
+
+/* 获奖区 */
+
+.content .info-text .detail-info .win {
+    width: 790px;
+}
+
+.content .info-text .detail-info .win table {
+    border-top: 2px solid #ccc;
+    line-height: 2.5;
+}
+
+.content .info-text .detail-info .win table tbody tr.align-center {
+    margin: 10px 0 20px;
+    border-bottom: 1px solid #e6e6e6;
+    background: #f9f9f9;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+/* 设置内容区右侧相册样式 */
+
+.content .info-text .detail-info .word-pics {
+    width: 790px;
+    overflow: hidden;
+}
+
+.content .info-text .detail-info .word-pics .header {
+    height: 40px;
+    border-bottom: 1px solid #e0e0e0;
+    background: #f5f5f5;
+    margin: 10px 0;
+}
+
+.content .info-text .detail-info .word-pics .header .title {
+    font-size: 19px;
+    font-family: Microsoft YaHei, sans-serif;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.content .info-text .detail-info .word-pics .header a {
+    border: 1px solid #ccc;
+    display: block;
+    background: #fafafa;
+    width: 56px;
+    height: 22px;
+    line-height: 22px;
+    float: right;
+    position: relative;
+    margin-top: 8px;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin-right: 10px;
+    color: #4d8ac8;
+}
+
+.content .info-text .detail-info .word-pics .header .more-pics em {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 0;
+    right: 10px;
+    top: 7px;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #4d8ac8;
+    border-bottom: 4px solid transparent;
+}
+
+.content .info-text .detail-info .word-pics .album-wrap {
+    white-space: nowrap;
+    overflow-x: scroll;
+    height: 250px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content .info-text .detail-info .word-pics .album-wrap div.album-fl {
+    display: inline-block;
+}
+
+.content .info-text .detail-info .word-pics .album-wrap .pics-container {
+    width: 1000px;
+}
+
+
+/* TA说 */
+
+.content .info-text .detail-info .tashuo {
+    width: 790px;
+}
+
+.content .info-text .detail-info .tashuo .tashuo-title {
+    width: 100%;
+    height: 20px;
+    padding: 10px 0;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #eee;
+    background: #F8F8F8;
+    margin: 20px auto 10px auto;
+}
+
+.content .info-text .detail-info .tashuo .tashuo-title img {
+    width: 52px;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+
+.info-text .detail-info .tashuo .tashuo-title span {
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+    width: 108px;
+    height: 18px;
+    padding: 5px 0 0 6px;
+    line-height: 1;
+}
+
+.info-text .detail-info .tashuo .tashuo-wrap .tashuo-author {
+    margin-left: 10px;
+}
+
+.info-text .detail-info .tashuo .tashuo-wrap .tashuo-author a {
+    color: #666;
+}
+
+.info-text .detail-info .tashuo .tashuo-wrap .tashuo-author img,
+.detail-info .content-right .tashuo .tashuo-author img {
+    width: 16px;
+    height: 16px;
+}
+
+.tashuo .tashuo-wrap .tashuo-author .ta-author-slogan-area {
+    float: left;
+    max-width: 165px;
+    margin-left: 8px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.tashuo .tashuo-wrap .tashuo-author .ta-author-area {
+    float: left;
+    width: 16px;
+    position: relative;
+}
+
+.tashuo .tashuo-wrap .tashuo-author i,
+.content-right .tashuo .tashuo-author i {
+    width: 12px;
+    height: 12px;
+    background-size: 10px 10px;
+    background-image: url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/tashuo/img/ta-v_3e34675.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-left: 2px;
+}
+
+.tashuo .tashuo-wrap .tashuo-author .ta-author-slogan-area span {
+    margin-left: 5px;
+}
+
+.tashuo .tashuo-wrap .tashuo-content a.cover {
+    display: block;
+    width: 216px;
+    height: 120px;
+    float: left;
+    overflow: hidden;
+}
+
+.tashuo .tashuo-wrap .tashuo-content-essence {
+    width: 538px;
+    margin-left: 20px;
+    float: left;
+}
+
+.tashuo .tashuo-wrap .tashuo-content-essence p.title {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tashuo-content-essence .abstract {
+    height: 60px;
+    margin: 12px 0;
+    font-size: 12px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #666;
+}
+
+.tashuo-operator {
+    color: #999;
+    font-size: 12px;
+    width: 100%;
+    margin-top: -6px;
+}
+
+.tashuo-operator .tashuo-publish-date {
+    float: left;
+}
+
+.tashuo-operator .tashuo-like {
+    margin-left: 18px;
+    float: right;
+    cursor: pointer;
+}
+
+tashuo-operator .tashuo-view {
+    float: right;
+}
+
+.tashuo-operator .tashuo-like {
+    margin-left: 18px;
+    float: right;
+    cursor: pointer;
+}
+
+.tashuo-operator .tashuo-view {
+    float: right;
+}
+
+.tashuo-operator .tashuo-like i {
+    width: 13px;
+    height: 12px;
+    background-size: 26px 12px;
+    background-image: url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/tashuo/img/like-spr_39c5f36.png);
+    background-repeat: no-repeat;
+    background-position: 1px 0;
+    display: inline-block;
+    vertical-align: -1px;
+    margin-right: 7px;
+}
+
+
+/* 参考资料 */
+
+.lemma-reference {
+    clear: both;
+    padding-top: 20px;
+    width: 790px;
+}
+
+.lemma-reference dt.reference-title {
+    font-size: 19px;
+    line-height: 45px;
+    font-weight: 200;
+    font-family: 'Microsoft YaHei', sans-serif;
+    border-bottom: 2px solid #ccc;
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.lemma-reference .reference-list-wrap {
+    color: #333;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.lemma-reference .reference-list-wrap .reference-list {
+    padding: 0;
+    margin: 0;
+}
+
+.lemma-reference .reference-list-wrap .reference-list .reference-item {
+    color: #aaa;
+    line-height: 20px;
+    margin-top: 9px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.lemma-reference .toggle {
+    cursor: pointer;
+    margin: 20px 0 -10px 0;
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: #F5F5F5;
+    border-radius: 2px;
+    font-size: 0;
+    color: #333;
+}
+
+.lemma-reference.collapse .expand-text {
+    display: inline-block;
+}
+
+.lemma-reference .toggle .text {
+    font-size: 12px;
+}
+
+.lemma-reference.collapse .collapse-text {
+    display: none;
+}
+
+.lemma-reference.collapse .toggle-arrow {
+    background: url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaReference/img/reference_toggle_bb6573e.png) no-repeat 0 0;
+}
+
+.lemma-reference .toggle .toggle-arrow {
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    vertical-align: 2px;
+    margin-left: 4px;
+}
+
+.lemma-reference .reference-list-wrap .reference-list .reference-item .index {
+    color: #666;
+    float: left;
+}
+
+.lemma-reference .reference-list-wrap .reference-list .reference-item a {
+    color: #666;
+    text-decoration: none;
+}
+
+.lemma-reference .reference-list-wrap .reference-list .reference-item a:hover {
+    text-decoration: underline;
+}
+
+.lemma-reference .reference-list-wrap .reference-list .reference-item .linkout {
+    background: url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaReference/img/view_reference_19e8a75.gif) no-repeat right 2px;
+    padding-right: 18px;
+}
+
+.lemma-reference .reference-list-wrap .reference-list .reference-item .gotop {
+    width: 15px;
+    height: 14px;
+    overflow: hidden;
+    background: url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaReference/img/view_reference_19e8a75.gif) no-repeat 0 -14px;
+    display: block;
+    margin-right: 4px;
+    float: left;
+    margin-top: 3px;
+    text-decoration: none;
+}
+
+
+/* 设置 探索发现区 的样式 */
+
+.explore {
+    border: 1px solid #ccc;
+    padding: 27px;
+    margin: 20px 62px;
+    margin-bottom: 0;
+    position: relative;
+    background: #fff;
+}
+
+.explore span {
+    position: absolute;
+    top: 20px;
+    left: 26px;
+}
+
+.explore span img {
+    width: 40px;
+}
+
+.explore h6 {
+    font-size: 19px;
+    display: inline-block;
+    margin-left: 38px;
+}
+
+.explore ul {
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+.explore ul li {
+    float: left;
+    width: 195px;
+    margin: 6px 20px 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #338ED6;
+    font-family: arial, 宋体, sans-serif;
+    font-size: 14px;
+}
+
+.explore ul li a:hover {
+    text-decoration: underline;
+}
+
+.explore ul li:before {
+    content: '';
+    background: #338ED6;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px 3px 0;
+}
+
+
+/* 内容区左侧盒子 */
+
+.content .info-text .detail-info .left-box {
+    width: 790px;
+}
+
+
+/* 内容区右侧 */
+
+.content-right {
+    width: 270px;
+}
+
+
+/* 右侧：明星榜单区 */
+
+.content-right .star-chart,
+.content .info-text .detail-info .content-right .tashuo,
+.content-right .vknow,
+.content-right .data {
+    position: relative;
+    padding: 10px 5px 0;
+    width: 270px;
+    border: 1px solid #ccc;
+    background: rgb(251, 251, 251);
+    margin-bottom: 20px;
+}
+
+.content-right .star-chart .main-chart {
+    padding: 0 15px;
+}
+
+.content-right .star-chart .chart-title {
+    padding-left: 10px;
+}
+
+.content-right .star-chart .main-chart .week {
+    margin-top: 10px;
+}
+
+.content-right .star-chart .main-chart .week span {
+    display: inline-block;
+    width: 116px;
+    height: 26px;
+    color: #333;
+    font-size: 12px;
+    border: 1px solid #D5D5D5;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.content-right .star-chart .main-chart .week span.thisweek {
+    background: #459DF5;
+    color: #FFF;
+    border-color: #459DF5;
+    border-right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.content-right .star-chart .main-chart .detail-chart {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.content-right .star-chart .main-chart .detail-chart p.item-name {
+    font-size: 12px;
+    color: #999;
+    line-height: 1;
+}
+
+.content-right .star-chart .main-chart .detail-chart span.item-num {
+    font-size: 14px;
+    color: #2A2A2A;
+    line-height: 20px;
+    margin-right: 4px;
+}
+
+.content-right .star-chart .main-chart .detail-chart p img {
+    position: relative;
+    width: 12px;
+    top: 3px;
+    left: -7px;
+}
+
+.content-right .star-chart .main-chart .detail-chart .detail-pic .pic-wrap img {
+    border: 2px solid #459df5;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+}
+
+.content-right .star-chart .main-chart .detail-chart .detail-num,
+.content-right .star-chart .main-chart .detail-chart .detail-flower {
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.content-right .star-chart .main-chart .detail-chart .send-flower .send-btn {
+    width: 168px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #D5D5D5;
+    margin: 18px auto 10px;
+    border-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    cursor: pointer;
+    position: relative;
+}
+
+.content-right .star-chart .main-chart .detail-chart .send-flower .send-btn img {
+    width: 24px;
+    height: 28px;
+    margin-left: 28px;
+    margin-top: 7px;
+}
+
+.content-right .star-chart .main-chart .detail-chart .send-flower .send-btn span {
+    position: relative;
+    top: -9px;
+}
+
+.content-right .star-chart .main-chart .fans-flower .fans-box {
+    margin-bottom: 15px;
+}
+
+.content-right .star-chart .main-chart .fans-flower .fans-box .fans {
+    width: 33%;
+}
+
+.content-right .star-chart .main-chart .fans-flower .fans-box .fans .head {
+    position: relative;
+}
+
+.content-right .star-chart .main-chart .fans-flower .fans-box .fans .head img {
+    border: 2px solid #459df5;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+}
+
+.content-right .star-chart .main-chart .fans-flower .fans-box .fans .head .num {
+    background: #FAD653;
+    font-size: 12px;
+    color: #FFF;
+    width: 15px;
+    height: 15px;
+    line-height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.content-right .star-chart .main-chart .fans-flower .fans-box .fans p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.content-right .star-chart .main-chart .fans-flower .fans-box .fans p.name {
+    color: #333;
+    margin-left: 18px;
+}
+
+.content-right .star-chart .main-chart .fans-flower .fans-box .fans p.num {
+    color: #999;
+}
+
+
+/* 右侧：TA说区 */
+
+.info-text .detail-info .content-right .tashuo .tashuo-title {
+    margin-top: 0px;
+}
+
+.content-right .tashuo .tashuo-author .ta-author-slogan-area {
+    color: #777;
+    float: left;
+    max-width: 165px;
+    margin-left: 8px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.content-right .tashuo .tashuo-content .title {
+    margin: 10px 2px;
+}
+
+.content-right .tashuo .tashuo-content .title a.title {
+    position: absolute;
+    top: 196px;
+    display: block;
+    line-height: 1.5;
+    padding: 0 12px;
+    color: white;
+}
+
+.content-right .tashuo .tashuo-content div.abstract {
+    line-height: 1.5;
+    font-size: 12px;
+    color: #666;
+    height: 39px;
+    overflow: hidden;
+    margin: 6px 0;
+    text-indent: 1em;
+    padding: 0 5px;
+}
+
+.content-right .tashuo .tashuo-content div.abstract a {
+    text-overflow: ellipsis;
+}
+
+
+/* 右侧V百科区 */
+
+.content-right .vknow .v-head span.strong-font {
+    padding-left: 8px;
+}
+
+.content-right .vknow .v-head {
+    margin: 5px 0;
+}
+
+.content-right .vknow .v-head a {
+    font-size: 12px;
+}
+
+
+/* 右侧 词条数据区 */
+
+.content-right .data {
+    color: #555;
+}
+
+.content-right .data img {
+    width: 11px;
+    height: 15px;
+}
+
+.content-right .data img.kedou {
+    width: 16px;
+    height: 16px;
+}
+
+.content-right .data .word-data,
+.content-right .data .user-data {
+    margin: 5px 14px;
+}
+
+.content-right .data .user-data {
+    padding-bottom: 10px;
+}
+
+.content-right .data .word-data {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+}
+
+.content-right .data .data-info {
+    line-height: 1.8;
+}
+
+.content-right .data .data-info a:hover {
+    text-decoration: underline;
+}
+
+
+/* 右侧悬浮目录 */
+
+.content .info-text .detail-info .detail-menu .catalog-list {
+    display: block;
+    float: left;
+    border-left: 1px solid #ebebeb;
+    width: 706px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+.catalog-list ol {
+    float: left;
+    border-left: 1px solid #f5f5f5;
+}
+
+.catalog-list ol li.level1 {
+    line-height: 28px;
+}
+
+.catalog-list ol li.level1 .index {
+    display: inline-block;
+    width: 18px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 8px;
+    vertical-align: top;
+    text-align: right;
+    color: #63a0df;
+}
+
+.catalog-list ol li.level1 .text {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    background: #fff;
+    vertical-align: top;
+    width: 120px;
+    color: #136ec2;
+}
+
+.catalog-list ol li.level2 {
+    padding-left: 50px;
+    line-height: 1.5;
+}
+
+.catalog-list ol li.level2 .index {
+    color: #ccc;
+}
+
+.catalog-list ol li.level2 .text {
+    font-size: 12px;
+}
+
+.side-catalog {
+    width: 270px;
+    height: 221px;
+    position: fixed;
+    bottom: 10px;
+    font-size: 14px;
+    font-family: 宋体;
+    line-height: 19px;
+    z-index: 1;
+}
+
+.side-catalog .side-bar {
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 194px;
+    background-color: #eaeaea;
+    border: 1px solid #eaeaea;
+    border-top: 0;
+    border-bottom: 0;
+    left: 5px;
+}
+
+.side-catalog .catalog-scroller {
+    padding-top: 15px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 210px;
+    height: 171px;
+    overflow: hidden;
+}
+
+.side-catalog .catalog-scroller .catalog-list {
+    width: 210px;
+    height: auto;
+    position: relative;
+}
+
+.side-catalog .catalog-scroller .catalog-list .catalog-title {
+    position: relative;
+    margin-bottom: 7px;
+    padding-left: 20px;
+}
+
+.side-catalog .catalog-scroller .catalog-list .arrow {
+    left: 0;
+    z-index: 2;
+    top: 5px;
+    position: absolute;
+    height: 13px;
+    width: 18px;
+    cursor: pointer;
+    background: transparent url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/sideCatalog/img/sideCatalog_a278e02.gif) -271px -38px no-repeat;
+}
+
+.side-catalog .side-bar .circle.start,
+.side-catalog .side-bar .circle.end {
+    position: absolute;
+    left: -5px;
+    width: 10px;
+    height: 10px;
+    background: transparent url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/sideCatalog/img/sideCatalog_a278e02.gif) 0 -199px no-repeat;
+    zoom: 1;
+    overflow: hidden;
+}
+
+.side-catalog .catalog-scroller .catalog-list .catalog-title .pointer {
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin-top: 4px;
+    left: 0;
+    background: transparent url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/sideCatalog/img/sideCatalog_a278e02.gif) 3px -222px no-repeat;
+}
+
+.side-catalog .catalog-scroller .catalog-list .catalog-title.level1 .text {
+    padding-left: 10px;
+}
+
+.side-catalog .catalog-scroller .catalog-list .catalog-title .text {
+    line-height: 19px;
+    display: block;
+}
+
+.side-catalog .catalog-scroller .catalog-list .catalog-title.level1 .title-link {
+    color: #555;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.side-catalog .catalog-scroller .catalog-list .catalog-title .pointer:hover {
+    background-position: 3px -245px;
+}
+
+.side-catalog .catalog-scroller .catalog-list .catalog-title:hover .pointer {
+    background-position: 3px -245px;
+}
+
+.side-catalog .catalog-scroller .catalog-list .catalog-title:hover .text {
+    background: #f5f5f5;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(245, 245, 245);
+    border-radius: 2px;
+    box-shadow: 0 1px 0 #eaeaea;
+}
+
+.side-catalog .catalog-scroller .catalog-list .catalog-title.level2 .text {
+    padding-left: 22px;
+}
+
+.side-catalog .catalog-scroller .catalog-list .catalog-title:hover .text {
+    background: #f5f5f5;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 #eaeaea;
+}
+
+
+/* 特色词条 */
+
+.content .tese {
+    position: absolute;
+    top: 377px;
+    left: 16px;
+}
+
+
+/* 页面悬浮分享区 */
+
+.content .share {
+    z-index: 1001;
+    width: 45px;
+    position: fixed;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    bottom: 30%;
+    right: 0;
+}
+
+.content .share p.title {
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #6fb6fd;
+    border-left: 1px solid #64aaf1;
+    border-right: 1px solid #64aaf1;
+    border-top: 1px solid #64aaf1;
+}
+
+.content .share .share-way {
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+
+.content .share .share-way .triangle {
+    display: block;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #6fb6fd transparent transparent;
+}
+
+.content .share .share-way .ways {
+    padding-bottom: 4px;
+}
+
+.content .share .share-way .ways a {
+    display: inline-block;
+    margin: 2px 0;
+}
+
+.content .share .share-way .ways a em.myicon {
+    font-size: 30px;
+    padding: 0px 7px;
+    color: #a7a7a7;
+}
+
+.content .share .share-way .ways a:hover em.icon-qzone {
+    color: #f6b436;
+}
+
+.content .share .share-way .ways a:hover em.icon-weibo {
+    color: #f6883e;
+}
+
+.content .share .share-way .ways a:hover em.icon-weixin {
+    color: #6abe5f;
+}
+
+.content .share .share-way .ways a:hover em.icon-qq {
+    color: #79c3f1;
+}
